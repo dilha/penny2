@@ -45,8 +45,8 @@ $(document).ready(function () {
     $('.header__theme-dark').on('click', function() {
         $('.header__theme-light').removeClass('active');
         $(this).addClass('active');
-        $('.header__logo-sun').removeClass('active');
-        $('.header__logo-moon').addClass('active');
+        $('.credit__img-sun').removeClass('active');
+        $('.credit__img-moon').addClass('active');
         $('html').removeClass('light');
         $('html').addClass('dark');
     });
@@ -54,8 +54,8 @@ $(document).ready(function () {
     $('.header__theme-light').on('click', function() {
         $('.header__theme-dark').removeClass('active');
         $(this).addClass('active');
-        $('.header__logo-moon').removeClass('active');
-        $('.header__logo-sun').addClass('active');
+        $('.credit__img-moon').removeClass('active');
+        $('.credit__img-sun').addClass('active');
         $('html').removeClass('dark');
         $('html').addClass('light');
     });

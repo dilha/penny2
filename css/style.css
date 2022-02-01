@@ -439,6 +439,10 @@ a {
   height: 70px;
   -o-object-fit: contain;
      object-fit: contain;
+  display: none;
+}
+.credit__img.active {
+  display: block;
 }
 .credit__medium {
   position: relative;
